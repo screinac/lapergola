@@ -6,7 +6,7 @@ import menuComidaImg from "../../../../public/menuComida.jpg";
 const page = () => {
   return (
     <div className="flex flex-col items-center">
-      <Link href="/info" className="absolute top-6 left-6 text-2xl">
+      <Link href="/info" className="absolute top-6 left-6 text-3xl">
         <IoChevronBack />
       </Link>
       <Image
