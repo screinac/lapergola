@@ -5,7 +5,7 @@ import { MdLocationPin } from "react-icons/md";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center ">
+    <main className="flex min-h-screen flex-col items-center text-white ">
       <div
         dangerouslySetInnerHTML={{
           __html: `
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="px-2 w-full flex flex-col items-center ">
         <Link
           className="py-2 mt-12 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
-          href="/"
+          href="/info"
         >
           Menú y Reservas
         </Link>
