@@ -10,11 +10,11 @@ export default function Home() {
         dangerouslySetInnerHTML={{
           __html: `
         <video
-        className="h-screen absolute -z-10 object-cover"
+        style="height: 100vh; width: 100vw; position: absolute; left: 0; z-index: -10; object-fit: cover; "
         loop
         autoPlay
         muted
-        controls
+
         playsinline
         preload="none"
       >
@@ -32,7 +32,6 @@ export default function Home() {
         width={200}
         height={200}
       ></Image>
-
       <div className="px-2 w-full flex flex-col items-center ">
         <Link
           className="py-2 mt-12 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
