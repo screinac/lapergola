@@ -6,30 +6,29 @@ import { MdLocationPin } from "react-icons/md";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center ">
-      {/* <Image
-        className="absolute -z-10 h-screen w-screen max-w-4xl object-cover"
-        src={HomeImg}
-        alt="La Pergola"
-        width={500}
-        height={500}
-      ></Image> */}
-      <video
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `
+        <video
         className="h-screen absolute -z-10 object-cover"
         loop
         autoPlay
         muted
-        // controls
         preload="none"
       >
-        <source src="pergolaHome.mp4" type="video/mp4" />
+        <source src="/pergolaHome.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video>,
+      `,
+        }}
+      ></div>
 
       <Image
         className="mt-14"
-        src="logo.png"
+        src="/logo.png"
         alt="La Pergola"
         width={200}
+        height={200}
       ></Image>
 
       <div className="px-2 w-full flex flex-col items-center ">
