@@ -29,7 +29,7 @@ const page = () => {
         </Link>
 
         <a
-          href="/"
+          href="https://wa.link/2g7oep"
           className="w-full mt-8 flex justify-between shadow-md rounded-lg border border-slate-200  "
         >
           <div className="py-5 px-20 font-semibold tracking-wider">
