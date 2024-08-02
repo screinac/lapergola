@@ -15,6 +15,7 @@ export default function Home() {
         autoPlay
         muted
         controls
+        playsinline
         preload="none"
       >
         <source src="/pergolaHome.mp4" type="video/mp4" />
