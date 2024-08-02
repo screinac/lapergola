@@ -29,8 +29,9 @@ const page = () => {
         </Link>
 
         <a
-          href="https://wa.link/2g7oep"
+          href="https://api.whatsapp.com/send?phone=573205950468&text=¡Hola!%20Me%20gustaría%20hacer%20una%20reservación"
           className="w-full mt-8 flex justify-between shadow-md rounded-lg border border-slate-200  "
+          target="_blank"
         >
           <div className="py-5 px-20 font-semibold tracking-wider">
             Reservas
