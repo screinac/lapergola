@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoChevronBack } from "react-icons/io5";
 import menuComidaImg from "../../../../public/menuComida.jpg";
+import menuBebidasImg from "../../../../public/menuBebidas.jpg";
 
 const page = () => {
   return (
@@ -29,6 +30,20 @@ const page = () => {
           }}
         >
           Menú comida
+        </Link>
+
+        <Link
+          href="/info/menu/menuComida"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10"
+          style={{
+            backgroundImage: `url(${menuBebidasImg.src})`,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            width: "100%",
+            height: "100%",
+          }}
+        >
+          Menú bebidas
         </Link>
       </div>
     </div>

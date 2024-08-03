@@ -41,13 +41,13 @@ export default function Home() {
         </Link>
         <Link
           className="py-2 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
-          href="/"
+          href="/eventos"
         >
           Eventos del mes
         </Link>
         <Link
           className="py-2 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
-          href="/"
+          href="/quienes-somos"
         >
           ¿Quiénes somos?
         </Link>
