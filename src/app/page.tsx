@@ -20,7 +20,7 @@ export default function Home() {
       >
         <source src="/pergolaHome.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>,
+      </video>
       `,
         }}
       ></div>
@@ -32,21 +32,21 @@ export default function Home() {
         width={200}
         height={200}
       ></Image>
-      <div className="px-2 w-full flex flex-col items-center ">
+      <div className="px-4 w-full flex flex-col items-center ">
         <Link
-          className="py-2 mt-12 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
+          className="py-3 mt-12 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
           href="/info"
         >
           Menú y Reservas
         </Link>
         <Link
-          className="py-2 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
+          className="py-3 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
           href="/eventos"
         >
           Eventos del mes
         </Link>
         <Link
-          className="py-2 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
+          className="py-3 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
           href="/quienes-somos"
         >
           ¿Quiénes somos?
