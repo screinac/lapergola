@@ -67,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-white absolute text-center bottom-5 text-xs">
+      <p className="text-white absolute text-center bottom-3 text-xs">
         Creado por{" "}
         <a
           href="https://api.whatsapp.com/send?phone=573172770535&text=¡Hola!%20Me%20interesa%20comprar%20una%20página%20web."
