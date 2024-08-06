@@ -31,6 +31,7 @@ export default function Home() {
         alt="La Pergola"
         width={200}
         height={200}
+        priority
       ></Image>
       <div className="px-4 w-full flex flex-col items-center ">
         <Link

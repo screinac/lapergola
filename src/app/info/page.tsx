@@ -16,6 +16,7 @@ const page = () => {
         alt="La Pergola"
         width={200}
         height={200}
+        priority
       ></Image>
       <div className="px-10">
         <Link

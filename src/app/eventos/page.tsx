@@ -19,11 +19,12 @@ const page = () => {
         alt="La Pergola"
         width={200}
         height={200}
+        priority
       ></Image>
-      <div className="w-full text-white px-10 mt-10">
+      <div className="w-full text-white px-10 mt-10 flex flex-col items-center">
         <Link
-          href="/eventos/evento"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center"
+          href="/eventos/taller-pintura"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center max-w-lg"
           style={{
             backgroundImage: `url(${eventosPinturaImg.src})`,
             backgroundSize: "cover",
@@ -36,8 +37,8 @@ const page = () => {
         </Link>
 
         <Link
-          href="/info/menu/menuComida"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10"
+          href="/eventos/catas"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10 max-w-lg"
           style={{
             backgroundImage: `url(${eventosCatasImg.src})`,
             backgroundSize: "cover",
@@ -50,8 +51,8 @@ const page = () => {
         </Link>
 
         <Link
-          href="/info/menu/menuComida"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10"
+          href="/eventos/club"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10 max-w-lg"
           style={{
             backgroundImage: `url(${eventosClubImg.src})`,
             backgroundSize: "cover",
@@ -64,8 +65,8 @@ const page = () => {
         </Link>
 
         <Link
-          href="/info/menu/menuComida"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10 mb-24"
+          href="/eventos/musica-en-vivo"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10 mb-24 max-w-lg"
           style={{
             backgroundImage: `url(${eventosMusicaImg.src})`,
             backgroundSize: "cover",

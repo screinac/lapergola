@@ -16,11 +16,12 @@ const page = () => {
         alt="La Pergola"
         width={200}
         height={200}
+        priority
       ></Image>
-      <div className="w-full text-white px-10 mt-10">
+      <div className="w-full text-white px-10 mt-10 flex flex-col items-center">
         <Link
           href="/info/menu/menuComida"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center max-w-lg"
           style={{
             backgroundImage: `url(${menuComidaImg.src})`,
             backgroundSize: "cover",
@@ -34,7 +35,7 @@ const page = () => {
 
         <Link
           href="/info/menu/menuComida"
-          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10"
+          className="inline-block  py-12 rounded-3xl text-3xl font-medium text-center mt-10 max-w-lg"
           style={{
             backgroundImage: `url(${menuBebidasImg.src})`,
             backgroundSize: "cover",
