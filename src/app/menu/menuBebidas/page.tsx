@@ -4,7 +4,7 @@ import { IoChevronBack } from "react-icons/io5";
 
 const page = () => {
   return (
-    <div className="relative bg-[#EFEADE] min-h-screen flex flex-col items-center">
+    <div className="relative bg-[#EFEADE] min-h-screen flex flex-col items-center justify-center">
       <Link href="/menu" className="fixed top-6 left-6 text-3xl">
         <IoChevronBack />
       </Link>
