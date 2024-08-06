@@ -23,7 +23,7 @@ const page = () => {
           href="/info/eventos"
           className="w-full mt-12 flex justify-between shadow-md rounded-lg border border-slate-200 "
         >
-          <div className="py-5 px-20 font-semibold tracking-wider">
+          <div className="py-5 px-16 font-semibold tracking-wider">
             Eventos del Mes
           </div>
           <div className="flex items-center px-4 border border-slate-200 rounded-lg text-xl">
@@ -36,7 +36,7 @@ const page = () => {
           className="w-full mt-8 flex justify-between shadow-md rounded-lg border border-slate-200  "
           target="_blank"
         >
-          <div className="py-5 px-20 font-semibold tracking-wider">
+          <div className="py-5 px-16 font-semibold tracking-wider">
             Reservas
           </div>
           <div className="flex items-center px-4 border border-slate-200 rounded-lg text-xl">
