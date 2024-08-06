@@ -52,7 +52,7 @@ export default function Home() {
         >
           ¿Quiénes somos?
         </Link>
-        <div className="mt-20 ">
+        <div className="mt-20 lg:mt-16">
           <p className="mb-4 text-center ">Síguenos</p>
           <div className="flex gap-3 mt-2 text-4xl">
             <a
@@ -67,6 +67,15 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <p className="text-white absolute text-center bottom-5 text-xs">
+        Creado por{" "}
+        <a
+          href="https://api.whatsapp.com/send?phone=573172770535&text=¡Hola!%20Me%20interesa%20comprar%20una%20página%20web."
+          className="underline"
+        >
+          Plupweb
+        </a>
+      </p>
     </main>
   );
 }
