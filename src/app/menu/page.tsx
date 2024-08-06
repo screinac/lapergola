@@ -45,7 +45,7 @@ const page = () => {
             height: "100%",
           }}
         >
-          Bebidas y Panadería
+          Bebidas
         </Link>
 
         <Link
