@@ -57,9 +57,18 @@ export default function Page({ params }: { params: { slug: string } }) {
         <h2 className="text-[#812C37] text-4xl font-bold mt-24">
           {contenido.titulo}
         </h2>
-        <p className="mt-8 max-w-lg" style={{ whiteSpace: "pre-line" }}>
-          {contenido.parrafo}
-        </p>
+        <div>
+          <p className="mt-8 max-w-lg" style={{ whiteSpace: "pre-line" }}>
+            {contenido.parrafo}
+          </p>
+          <a
+            href={`https://api.whatsapp.com/send?phone=573205950468&text=¡Hola!%20Me%20gustaría%20hacer%20una%20reservación%20para%20el%20evento%20de%20${contenido.titulo}`}
+            className="bg-slate-900 text-white inline-block mt-5 px-10 py-1 rounded-lg"
+            target="_blank"
+          >
+            Reserva aquí
+          </a>
+        </div>
         <Image
           src={contenido.imagen}
           className="w-full mt-8 mb-16 max-w-lg"
