@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MdOutlineRestaurant } from "react-icons/md";
 import { IoBookSharp } from "react-icons/io5";
 import { IoChevronBack } from "react-icons/io5";
-
+import { MdLocalActivity } from "react-icons/md";
 const page = () => {
   return (
     <div className="flex flex-col items-center">
@@ -20,12 +20,14 @@ const page = () => {
       ></Image>
       <div className="px-10">
         <Link
-          href="/info/menu"
+          href="/info/eventos"
           className="w-full mt-12 flex justify-between shadow-md rounded-lg border border-slate-200 "
         >
-          <div className="py-5 px-20 font-semibold tracking-wider">Menú</div>
+          <div className="py-5 px-20 font-semibold tracking-wider">
+            Eventos del Mes
+          </div>
           <div className="flex items-center px-4 border border-slate-200 rounded-lg text-xl">
-            <MdOutlineRestaurant />
+            <MdLocalActivity />
           </div>
         </Link>
 

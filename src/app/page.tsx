@@ -36,15 +36,15 @@ export default function Home() {
       <div className="px-4 w-full flex flex-col items-center ">
         <Link
           className="py-3 mt-12 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
-          href="/info"
+          href="/menu"
         >
-          Menú y Reservas
+          Menú
         </Link>
         <Link
           className="py-3 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
-          href="/eventos"
+          href="/info"
         >
-          Eventos del mes
+          Eventos del mes y Reservas
         </Link>
         <Link
           className="py-3 mt-5 text-center inline-block w-full rounded-full bg-[#251B26] max-w-md"
