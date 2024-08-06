@@ -13,8 +13,8 @@ const page = () => {
         <Image
           src="/quienesSomos.jpg"
           className="w-screen py-24 max-w-3xl"
-          width={200}
-          height={200}
+          width={1400}
+          height={2000}
           alt="La pérgola enoteca con etiquetas de autoría de la Chef Maca"
         ></Image>
       </div>

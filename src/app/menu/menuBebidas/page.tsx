@@ -4,7 +4,7 @@ import { IoChevronBack } from "react-icons/io5";
 
 const page = () => {
   return (
-    <div className="relative bg-[#EFEADE] min-h-screen">
+    <div className="relative bg-[#EFEADE] min-h-screen flex flex-col items-center">
       <Link href="/menu" className="fixed top-6 left-6 text-3xl">
         <IoChevronBack />
       </Link>
@@ -12,8 +12,8 @@ const page = () => {
         <Image
           src="/menuBebidas/menu1.jpg"
           className="w-screen max-w-3xl"
-          width={200}
-          height={200}
+          width={1400}
+          height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
       </div>
