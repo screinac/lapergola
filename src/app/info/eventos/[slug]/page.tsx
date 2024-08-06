@@ -72,8 +72,8 @@ export default function Page({ params }: { params: { slug: string } }) {
         <Image
           src={contenido.imagen}
           className="w-full mt-8 mb-16 max-w-lg"
-          width={200}
-          height={200}
+          width={1400}
+          height={2000}
           alt="Persona pintando en lienzo con pincel"
         ></Image>
       </div>
