@@ -15,7 +15,7 @@ const config: Config = {
       },
       screens: {
         foo: {
-          raw: "(max-height: 660px)",
+          raw: "(max-height: 700px)",
         },
       },
     },
