@@ -26,7 +26,7 @@ export default function Home() {
       ></div>
 
       <Image
-        className="mt-6"
+        className="mt-16 foo:mt-0"
         src="/logo.png"
         alt="La Pergola"
         width={200}
