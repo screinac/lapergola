@@ -52,7 +52,7 @@ export default function Home() {
         >
           ¿Quiénes somos?
         </Link>
-        <div className="mt-20 mb-20 lg:mt-16">
+        <div className="mt-10 lg:mt-16">
           <p className="mb-4 text-center ">Síguenos</p>
           <div className="flex gap-3 mt-2 text-4xl">
             <a
@@ -67,7 +67,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-white absolute text-center bottom-2 text-xs">
+      <p className="text-white absolute text-center bottom-3 text-xs">
         Creado por{" "}
         <a
           href="https://api.whatsapp.com/send?phone=573172770535&text=¡Hola!%20Me%20interesa%20comprar%20una%20página%20web."
