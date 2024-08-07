@@ -16,5 +16,10 @@ const config: Config = {
     },
   },
   plugins: [],
+  screens: {
+    foo: {
+      raw: "(max-height: 680px)",
+    },
+  },
 };
 export default config;
