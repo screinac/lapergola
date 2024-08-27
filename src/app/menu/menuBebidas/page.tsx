@@ -11,10 +11,17 @@ const page = () => {
       <div className="flex flex-col items-center">
         <Image
           src="/menuBebidas/menu1.jpg"
-          className="w-screen max-w-3xl py-24"
+          className="w-screen max-w-3xl"
           width={1400}
           height={2000}
-          alt="Menú entradas empanadas, pizzas tradicionales, vinos"
+          alt="Bebidas cafetería, aromática, agua, soda"
+        ></Image>
+        <Image
+          src="/menuBebidas/menu2.png"
+          className="w-screen max-w-3xl"
+          width={1400}
+          height={2000}
+          alt="Cocteles por jarra, por copas, sangría, gintonic"
         ></Image>
       </div>
     </div>
