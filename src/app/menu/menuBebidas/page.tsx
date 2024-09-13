@@ -12,14 +12,14 @@ const page = () => {
         <Image
           src="/menuBebidas/menu1.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Bebidas cafetería, aromática, agua, soda"
         ></Image>
         <Image
           src="/menuBebidas/menu2.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Cocteles por jarra, por copas, sangría, gintonic"
         ></Image>

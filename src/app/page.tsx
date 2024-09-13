@@ -18,7 +18,7 @@ export default function Home() {
         playsinline
         preload="none"
       >
-        <source src="/pergolaHome.mp4" type="video/mp4" />
+        <source src="https://fmykhwnuocv5ziqu.public.blob.vercel-storage.com/pergolaHome-VpOvL8s6WolGrF4gBehcp62xwDLt6M.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       `,

@@ -12,28 +12,28 @@ const page = () => {
         <Image
           src="/menuVinos/1.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
           src="/menuVinos/2.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
           src="/menuVinos/3.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
           src="/menuVinos/4.png"
           className="w-screen max-w-3xl "
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>

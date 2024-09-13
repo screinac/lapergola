@@ -12,21 +12,21 @@ const page = () => {
         <Image
           src="/menuComida/menu1.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
           src="/menuComida/menu2.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
           src="/menuComida/menu3.png"
           className="w-screen max-w-3xl"
-          width={1400}
+          width={1414}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
