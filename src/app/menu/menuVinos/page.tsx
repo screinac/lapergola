@@ -10,28 +10,28 @@ const page = () => {
       </Link>
       <div className="flex flex-col items-center">
         <Image
-          src="/menuVinos/1.jpg"
+          src="/menuVinos/1.png"
           className="w-screen max-w-3xl"
           width={1400}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
-          src="/menuVinos/2.jpg"
+          src="/menuVinos/2.png"
           className="w-screen max-w-3xl"
           width={1400}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
-          src="/menuVinos/3.jpg"
+          src="/menuVinos/3.png"
           className="w-screen max-w-3xl"
           width={1400}
           height={2000}
           alt="Menú entradas empanadas, pizzas tradicionales, vinos"
         ></Image>
         <Image
-          src="/menuVinos/4.jpg"
+          src="/menuVinos/4.png"
           className="w-screen max-w-3xl "
           width={1400}
           height={2000}

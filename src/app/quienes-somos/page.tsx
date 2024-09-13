@@ -11,7 +11,7 @@ const page = () => {
       </Link>
       <div className="flex flex-col items-center">
         <Image
-          src="/quienesSomos.jpg"
+          src="/quienesSomos.png"
           className="w-screen py-24 max-w-3xl"
           width={1400}
           height={2000}
