@@ -23,6 +23,13 @@ const page = () => {
           height={2000}
           alt="Cocteles por jarra, por copas, sangría, gintonic"
         ></Image>
+        <Image
+          src="/menuBebidas/menu3.png"
+          className="w-screen max-w-3xl"
+          width={1414}
+          height={2000}
+          alt="Cocteles por jarra, por copas, sangría, gintonic"
+        ></Image>
       </div>
     </div>
   );
